@@ -1,7 +1,7 @@
-ul {
+ul.Semester {
   list-style-type : none;
-  margin : 0;
-  padding : 0;
+  margin-left : 500px;
+  padding : 5px;
 }
 a{
   display : block;
@@ -17,12 +17,16 @@ a:hover,a:active{
   background-color : #00CED1;
 }
 li.web{
-  float : left;
+  float : right;
 }
 
 li.Semester{
   text-align : center;
   margin-top: 25px;
+}
+h1.headlines{
+  text-align : center;
+
 }
 ul{
   text-align : center;
@@ -30,7 +34,7 @@ ul{
   margin-left : 500px;
   padding : 5px;
 }
-a.white{
+a{
   display : block;
   width : 280px;
   background-color : snow;
