@@ -19,16 +19,14 @@ a:hover,a:active{
 li.web{
   float : left;
 }
-h1.headlines{
-  text-align : center;
 
-}
 li.Semester{
   text-align : center;
 
   margin-top: 25px;
 }
-ul.Semester {
+ul{
+  text-align : center;
   list-style-type : none;
   margin-left : 500px;
   padding : 5px;
