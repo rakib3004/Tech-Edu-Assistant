@@ -6,7 +6,7 @@ font-family:Century Gothic;
 
 .wrapper
 {
-background: url(read.png) no-repeat;
+background: url(read.jpg) no-repeat;
 background-size:cover;
 height:100vh;
 }
@@ -27,7 +27,7 @@ padding:28px 80px;
 
 .navbar ul
 {
-float:left;
+float:right;
 margin-right:120px;
 }
 
