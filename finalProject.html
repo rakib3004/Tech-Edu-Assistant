@@ -2,40 +2,31 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Final Project Description</title>
-  <style>ul, #myUL {
-    list-style-type: none;
-  }
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <style>
+    ul, #myUL {
+      list-style-type: none;
+    }
 
-  #myUL {
-    margin: 0;
-    padding: 0;
-  }
+    #myUL {
+      margin: 0;
+      padding: 0;
+    }
 
-  .caret {
-    cursor: pointer;
-    -webkit-user-select: none; /* Safari 3.1+ */
-    -moz-user-select: none; /* Firefox 2+ */
-    -ms-user-select: none; /* IE 10+ */
-    user-select: none;
-  }
+    .caret {
+      cursor: pointer;
+      -webkit-user-select: none; /* Safari 3.1+ */
+      -moz-user-select: none; /* Firefox 2+ */
+      -ms-user-select: none; /* IE 10+ */
+      user-select: none;
+    }
+    .caret::before {
+      content: "\25B6";
+      color: black;
+      display: inline-block;
+      margin-right: 6px;
+    }
 
-  .caret::before {
-    content: "\25B6";
-    color: black;
-    display: inline-block;
-    margin-right: 6px;
-  }
-
-  .caret-down::before {
-    -ms-transform: rotate(90deg); /* IE 9 */
-    -webkit-transform: rotate(90deg); /* Safari */'
-  transform: rotate(90deg);
-  }
-
-  .nested {
-    display: none;
-  }
   </style>
 </head>
 <body>
@@ -60,13 +51,19 @@
   <progress value="20" max="100"></progress><br>
   <label>Progress in life goals <mark>(67%)</mark></label>
   <mark><progress value="67" max="100"></progress><br></mark>
-<h2>More About Me</h2>
+<h2>More About Me</h2><br>
+<ul id="myUL">
+  <li><span class="caret">Beverages</span><br>
+<label><mark>I grew up in Ashtabula Ohio. I lived near
+Lake Erie and I really miss sunsets over the water.</mark></label><br>
+  </li>
+</ul>
 
  <img src="http://www.intro-webdesign.com/images/newlogo.png" alt="WD4E">
   <label>This page was created by <mark>Md. Rakib Trofder</mark> & Colleen van Lent. To learn more about<br>
     web design, visit<a href=" http://intro-webdesign.com/projectdescription.html">Intro to Web Design</a></label>
 
-<p style="font-size: 34px">Grading Checklist</p><br>
+<p style="font-size: 34px">Grading Checklist</p>
 <ol>
  <li><b>doctype</b></li>
  <li><b>head</b></li>
@@ -81,27 +78,6 @@
   <li><b>footer - The image from the footer can be found at my website:</b><br></li>
   <a href="http://www.intro-webdesign.com/images/newlogo.png">http://www.intro-webdesign.com/images/newlogo.png</a>
 </ol>
-  <ul id="myUL">
-    <li><span class="caret">Beverages</span>
-      <ul class="nested">
-        <li>Water</li>
-        <li>Coffee</li>
-        <li><span class="caret">Tea</span>
-          <ul class="nested">
-            <li>Black Tea</li>
-            <li>White Tea</li>
-            <li><span class="caret">Green Tea</span>
-              <ul class="nested">
-                <li>Sencha</li>
-                <li>Gyokuro</li>
-                <li>Matcha</li>
-                <li>Pi Lo Chun</li>
-              </ul>
-            </li>
-          </ul>
-        </li>
-      </ul>
-    </li>
 
 </body>
 </html>
