@@ -37,7 +37,7 @@ ul.Semester {
 a.white{
   display : block;
   width : 280px;
-  background-color : crimson;
+  background-color : mediumvioletred;
   text-decoration : none;
   text-align : center;
   font-weight : bold;
@@ -46,8 +46,8 @@ a.white{
 }
 a.specified{
   display : block;
-  width : 280px;
-  background-color : lightseagreen;
+  width : 320px;
+  background-color : mediumvioletred;
   text-decoration : none;
   text-align : center;
   font-weight : bold;
