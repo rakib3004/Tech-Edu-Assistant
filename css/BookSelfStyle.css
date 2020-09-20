@@ -13,9 +13,7 @@ a{
   text-transform : uppercase;
   padding : 5px;
 }
-a:hover,a:active{
-  background-color : #00CED1;
-}
+
 li.web{
   float : left;
 }
@@ -51,4 +49,7 @@ a.white{
   font-weight : bold;
   text-transform : uppercase;
   padding : 5px;
+}
+a:hover,a:active{
+  background-color : #00CED1;
 }
