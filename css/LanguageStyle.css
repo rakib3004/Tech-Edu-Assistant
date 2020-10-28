@@ -6,7 +6,7 @@ ul {
 a{
   display : block;
   width : 320px;
-  background-color : crimson;
+  background-color : orangered;
   text-decoration : none;
   text-align : center;
   font-weight : bold;
@@ -35,7 +35,7 @@ ul.Programming {
 a.white{
   display : block;
   width : 280px;
-  background-color : crimson;
+  background-color : orangered;
   text-decoration : none;
   text-align : center;
   font-weight : bold;
@@ -43,5 +43,8 @@ a.white{
   padding : 5px;
 }
 a:hover,a:active{
-  background-color : #00CED1;
+  background-color :orange;
+}
+body {
+  background-image: url("code.jpg");
 }
