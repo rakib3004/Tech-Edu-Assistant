@@ -85,7 +85,7 @@ a:hover,a:active{
 {
   text-decoration:none;
   color:white;
-  font-size:20px;
+  font-size:15px;
   padding:15px 35px;
   font-family:Century Gothic;
   transition:0.8s;
@@ -97,7 +97,7 @@ a:hover,a:active{
   color:white;
   text-decoration:none;
 
-  font-size:23px;
+  font-size:18px;
   background:rgba(0,255,50,0.5);
   box-shadow:0 0 10px #66ff66, 0 0 40px #66ff66, 0 0 10px #66ff66;
   transition:1s;
