@@ -44,16 +44,7 @@ a.white{
   text-transform : uppercase;
   padding : 5px;
 }
-a.specified{
-  display : block;
-  width : 320px;
-  background-color : mediumvioletred;
-  text-decoration : none;
-  text-align : center;
-  font-weight : bold;
-  text-transform : uppercase;
-  padding : 5px;
-}
+
 a:hover,a:active{
   background-color : #00CED1;
 }
