@@ -6,7 +6,6 @@ ul {
 a{
   display : block;
   width : 320px;
-  background-color : crimson;
   text-decoration : none;
   text-align : center;
   font-weight : bold;
@@ -15,7 +14,7 @@ a{
 }
 
 li.web{
-  float : left;
+  float :left;
 }
 h1.headlines{
   text-align : center;
@@ -37,7 +36,6 @@ ul.Semester {
 a.white{
   display : block;
   width : 280px;
-  background-color : mediumvioletred;
   text-decoration : none;
   text-align : center;
   font-weight : bold;
@@ -46,7 +44,13 @@ a.white{
 }
 
 a:hover,a:active{
-  background-color : #00CED1;
+  color:white;
+  text-decoration:none;
+
+  font-size:18px;
+  background:rgba(0,255,50,0.5);
+  box-shadow:0 0 10px #66ff66, 0 0 40px #66ff66, 0 0 10px #66ff66;
+  transition:1s;
 }
 
 
