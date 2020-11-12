@@ -101,5 +101,16 @@ a:hover,a:active{
 }
 
 body {
-background-image: url("iit.jpg");
+background-color: #000000;
+
+ background: url(read.jpg) no-repeat;
+
+
+  background-size:cover;
+  height:100vh;
+
+  height:105px;
+  width:100%;
+  background:rgba(0,0,0,0.5);
+
 }
