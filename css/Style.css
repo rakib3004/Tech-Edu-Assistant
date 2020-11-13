@@ -1,3 +1,63 @@
+
+
+
+ul {
+  list-style-type : none;
+  margin : 0;
+  padding : 0;
+}
+a{
+  display : block;
+  width : 320px;
+  text-decoration : none;
+  text-align : center;
+  background-color: crimson;
+  font-weight : bold;
+  text-transform : uppercase;
+  padding : 5px;
+}
+
+li.web{
+  float :left;
+}
+h1.headlines{
+  text-align : center;
+
+}
+h2{
+  text-align : center;
+}
+li.Semester{
+  text-align : center;
+
+  margin-top: 25px;
+}
+ul.Semester {
+  list-style-type : none;
+  margin-left : 500px;
+  padding : 5px;
+}
+a.white{
+  display : block;
+  width : 280px;
+  text-decoration : none;
+  background-color: crimson;
+  text-align : center;
+  font-weight : bold;
+  text-transform : uppercase;
+  padding : 5px;
+}
+
+a:hover,a:active{
+  color:white;
+  text-decoration:none;
+
+  font-size:18px;
+  background:rgba(0,255,50,0.5);
+  box-shadow:0 0 10px #66ff66, 0 0 40px #66ff66, 0 0 10px #66ff66;
+  transition:1s;
+}
+
 *{
 margin: 0;
 padding:0;
