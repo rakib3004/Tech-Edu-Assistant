@@ -102,13 +102,8 @@ a:hover,a:active{
 
 body {
 
-  background: url(read.jpg) no-repeat;
-  background-size:cover;
-  height:100vh;
+  background: url(silver.jpg) repeat-y;
 
-
-  height:105px;
-  width:100%;
   /*
   background:rgba(0,0,0,0.5);
   */
