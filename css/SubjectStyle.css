@@ -1,17 +1,24 @@
 ul {
   list-style-type : none;
-  margin : 0;
-  padding : 0;
+  margin : 15px;
+  padding : 15px;
 }
 a{
-  display : block;
+  /*display : block;
   width : 320px;
   text-decoration : none;
   text-align : center;
-  background-color: crimson;
+  background-color: turquoise;
   font-weight : bold;
   text-transform : uppercase;
+  padding : 5px;*/
+  display : block;
+  width : 280px;
+  background-color: slategray;
+  text-align : center;
+  text-transform : uppercase;
   padding : 5px;
+  font-size:20px;
 }
 
 li.web{
@@ -37,21 +44,22 @@ ul.Semester {
 a.white{
   display : block;
   width : 280px;
-  text-decoration : none;
-  background-color: crimson;
+  background-color: slategray;
   text-align : center;
-  font-weight : bold;
   text-transform : uppercase;
   padding : 5px;
+  font-size:20px;
+
 }
 
 a:hover,a:active{
   color:white;
   text-decoration:none;
 
-  font-size:18px;
-  background:rgba(0,255,50,0.5);
-  box-shadow:0 0 10px #66ff66, 0 0 40px #66ff66, 0 0 10px #66ff66;
+  font-size:25px;
+  background:rgba(255,0,50,0.5);
+  /* box-shadow:0 0 10px #66ff66, 0 0 40px #66ff66, 0 0 10px #66ff66;*/
+  box-shadow:0 0 10px #d11717, 0 0 40px #d11717, 0 0 10px #d11717;
   transition:1s;
 }
 
