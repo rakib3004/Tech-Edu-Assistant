@@ -64,3 +64,10 @@ body {
   background: url(silver.jpg) repeat-y;
 
 }
+link{
+  rel:"icon" ;
+  href :
+  "tech.png";
+
+  type : "image/x-icon"
+}
