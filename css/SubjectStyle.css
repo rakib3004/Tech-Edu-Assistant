@@ -4,6 +4,11 @@ ul {
   padding : 15px;
 }
 
+h1.business{
+
+  text-align: center;
+}
+
 li.web{
   float :left;
 }
