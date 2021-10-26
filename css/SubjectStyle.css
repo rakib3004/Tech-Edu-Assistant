@@ -48,6 +48,7 @@ a.white{
   width : 200px;
   font-size:20px;
   padding:5px 50px;
+  color: #222222;
 }
 
 a:hover,a:active{
@@ -76,3 +77,4 @@ link{
 
   type : "image/x-icon"
 }
+
