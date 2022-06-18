@@ -16,6 +16,11 @@ h1.headlines{
   text-align : center;
 
 }
+
+h2.headlines{
+  text-align : center;
+margin-bottom: -40px;
+}
 li.Semester{
   text-align : center;
 
