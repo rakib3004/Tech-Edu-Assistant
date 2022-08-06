@@ -61,6 +61,7 @@ a:hover,a:active{
   font-size:23px;
   background:rgba(14, 139, 255, 0.85);
   box-shadow:0 0 10px #14a1ff, 0 0 40px #14a1ff, 0 0 10px #14a1ff;
+  transition: 0.2s;
 
   padding:5px 50px;
   overflow:hidden;
