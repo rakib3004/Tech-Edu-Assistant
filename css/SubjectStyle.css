@@ -14,7 +14,7 @@ li.web{
 }
 h1.headlines{
   text-align : center;
-
+  margin-left: -100px;
 }
 
 h2.headlines{
