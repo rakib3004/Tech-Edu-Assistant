@@ -37,7 +37,7 @@ ul.Semester {
 a{
   display : block;
   width : 280px;
-  background-color: deepskyblue;
+  background-color: #033D6C;
   text-align : center;
 
   font-size:20px;
@@ -52,7 +52,7 @@ a.white{
   width : 140px;
   font-size:20px;
   padding:5px 50px;
-  color: #000000;
+  color: black;
   font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
@@ -61,8 +61,8 @@ a:hover,a:active{
   text-decoration:none;
 
   font-size:23px;
-  background:rgba(14, 139, 255, 0.85);
-  box-shadow:0 0 10px #14a1ff, 0 0 40px #14a1ff, 0 0 10px #14a1ff;
+  background:#53AF32;
+  box-shadow:0 0 10px #53AF32, 0 0 40px #53AF32, 0 0 10px #53AF32;
   transition: 0.2s;
 
   padding:5px 50px;
