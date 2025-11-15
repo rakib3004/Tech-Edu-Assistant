@@ -84,3 +84,7 @@
     padding: 10px 0;
   }
 }
+
+.site-title-icon {
+  font-size: 2.5em; /* Make the icon 2.5 times larger */
+}
