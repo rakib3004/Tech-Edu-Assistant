@@ -24,14 +24,35 @@ body {
   border-bottom: #77aaff 3px solid;
 }
 
+.main-header .navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;
+}
+
+.main-header .navbar .wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.site-title {
+  color: #fff;
+  text-decoration: none;
+  font-size: 1.8em;
+  font-weight: bold;
+}
+
 .main-header .navbar ul {
   margin: 0;
   padding: 0;
   list-style: none;
+  display: flex;
 }
 
 .main-header .navbar li {
-  display: inline;
   padding: 0 15px;
 }
 
@@ -94,6 +115,63 @@ body {
 .btn-primary:hover {
   background: #5588dd;
 }
+
+/* Card Menu Section */
+.card-menu-section {
+  padding: 40px 0;
+  background: #f9f9f9;
+  text-align: center;
+}
+
+.card-menu-section h2 {
+  font-size: 2.5em;
+  margin-bottom: 30px;
+  color: #333;
+}
+
+.card-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 30px;
+  padding: 0 20px;
+}
+
+.card-item {
+  background: #fff;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  text-decoration: none;
+  color: #333;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.card-item:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.2);
+}
+
+.card-icon {
+  font-size: 3em;
+  margin-bottom: 15px;
+  color: #77aaff;
+}
+
+.card-item h3 {
+  font-size: 1.5em;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.card-item p {
+  font-size: 0.9em;
+  color: #666;
+}
+
 
 /* Features Section */
 .features-section {
@@ -162,6 +240,14 @@ body {
 
 /* Responsive Design */
 @media (max-width: 768px) {
+  .main-header .navbar .wrapper {
+    flex-direction: column;
+  }
+
+  .main-header .navbar ul {
+    margin-top: 10px;
+  }
+
   .main-header .navbar li {
     display: block;
     text-align: center;
@@ -176,7 +262,12 @@ body {
     font-size: 1em;
   }
 
+  .card-grid {
+    grid-template-columns: 1fr;
+  }
+
   .feature-grid {
     grid-template-columns: 1fr;
   }
 }
+
