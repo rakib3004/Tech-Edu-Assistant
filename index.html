@@ -1,22 +1,76 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
 
 <head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="css/Style.css">
-  <link rel = "icon" href = "t.png" type = "image/x-icon">
+  <link rel="stylesheet" href="css/LandingPage.css">
+  <link rel="icon" href="t.png" type="image/x-icon">
 
   <title>Tech Edu Assistant</title>
 </head>
 
 <body>
-<div class="wrapper">
-  <ul>
-    <li class="web"><a class="white" href="#">Home</a></li>
-    <li class="web"><a class="white" href="doc/html/Semesters.html">Semesters</a></li>
-    <li class="web"><a class="white" href="doc/html/Subjects.html">Subjects</a></li>
-    <li class="web"><a class="white" href="doc/html/Books.html">Books</a></li>
-    <li class="web"><a class="white" href="doc/html/Github.html">Github Accounts</a></li>
-    <li class="web"><a class="white" href="doc/html/IIT_Syllabus.pdf">Syllabus</a></li>
-  </ul>
+  <header class="main-header">
+    <nav class="navbar">
+      <div class="wrapper">
+        <ul>
+          <li class="web"><a class="white" href="#">Home</a></li>
+          <li class="web"><a class="white" href="doc/html/Semesters.html">Semesters</a></li>
+          <li class="web"><a class="white" href="doc/html/Subjects.html">Subjects</a></li>
+          <li class="web"><a class="white" href="doc/html/Books.html">Books</a></li>
+          <li class="web"><a class="white" href="doc/html/Github.html">Github Accounts</a></li>
+          <li class="web"><a class="white" href="doc/html/IIT_Syllabus.pdf">Syllabus</a></li>
+        </ul>
+      </div>
+    </nav>
+  </header>
 
-</div>
+  <main>
+    <section id="hero" class="hero-section">
+      <div class="hero-content">
+        <h1>Welcome to Tech Edu Assistant</h1>
+        <p>Your ultimate resource for technical education materials.</p>
+        <a href="#features" class="btn-primary">Explore Resources</a>
+      </div>
+    </section>
+
+    <section id="features" class="features-section">
+      <div class="container">
+        <h2>Key Features</h2>
+        <div class="feature-grid">
+          <div class="feature-item">
+            <h3>Structured Learning Paths</h3>
+            <p>Follow curated semester-wise and subject-wise learning paths.</p>
+          </div>
+          <div class="feature-item">
+            <h3>Comprehensive Book Collection</h3>
+            <p>Access a wide range of technical books and study materials.</p>
+          </div>
+          <div class="feature-item">
+            <h3>Syllabus & GitHub Integration</h3>
+            <p>Stay updated with the latest syllabus and explore relevant GitHub repositories.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="about-section">
+      <div class="container">
+        <h2>About Us</h2>
+        <p>Tech Edu Assistant is dedicated to providing high-quality educational resources for students and enthusiasts in the field of technology. Our goal is to make learning accessible and efficient.</p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="main-footer">
+    <div class="container">
+      <p>&copy; 2025 Tech Edu Assistant. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
 </body>
+
+</html>
