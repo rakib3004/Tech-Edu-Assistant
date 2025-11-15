@@ -218,6 +218,12 @@ body {
   color: #007bff; /* Vibrant blue */
 }
 
+.feature-icon {
+  font-size: 3em;
+  margin-bottom: 15px;
+  color: #007bff; /* Vibrant blue */
+}
+
 
 /* About Section */
 .about-section {
