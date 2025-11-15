@@ -4,7 +4,7 @@
   background: #007bff; /* Vibrant blue */
   color: #fff;
   padding: 10px 0; /* Adjusted padding */
-  min-height: 70px;
+  min-height: 80px; /* Increased min-height for two-line title */
   border-bottom: #0056b3 3px solid; /* Darker blue border */
 }
 
@@ -20,7 +20,8 @@
 .site-title {
   color: #fff;
   text-decoration: none;
-  font-size: 1.8em;
+  font-size: 1.5em; /* Reduced font size for two lines */
+  line-height: 1.2; /* Adjusted line height */
   font-weight: bold;
   padding: 10px 0; /* Added padding for better click area */
 }
