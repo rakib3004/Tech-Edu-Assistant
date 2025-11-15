@@ -199,17 +199,25 @@ body {
   padding: 30px;
   border-radius: 8px;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-  transition: transform 0.3s ease;
+  transition: transform 0.3s ease, background 0.3s ease, box-shadow 0.3s ease; /* Added background and box-shadow to transition */
+  display: flex; /* Use flexbox for vertical alignment */
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
 }
 
 .feature-item:hover {
   transform: translateY(-5px);
+  background: #e6f2ff; /* Lighter blue on hover */
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.2); /* More pronounced shadow on hover */
 }
 
-.feature-item h3 {
-  color: #77aaff;
-  margin-bottom: 10px;
+.feature-icon {
+  font-size: 3em;
+  margin-bottom: 15px;
+  color: #007bff; /* Vibrant blue */
 }
+
 
 /* About Section */
 .about-section {
