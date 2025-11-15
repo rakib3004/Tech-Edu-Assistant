@@ -24,6 +24,15 @@
   line-height: 1.2; /* Adjusted line height */
   font-weight: bold;
   padding: 10px 0; /* Added padding for better click area */
+  display: flex; /* Use flexbox */
+  align-items: center; /* Vertically align items */
+  gap: 5px; /* Space between icon and text */
+}
+
+.site-title .site-title-text {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
 }
 
 .navbar ul {
