@@ -1,11 +1,11 @@
 
 /* Navigation Bar Styles */
 .main-header {
-  background: #333;
+  background: #007bff; /* Vibrant blue */
   color: #fff;
   padding: 10px 0; /* Adjusted padding */
   min-height: 70px;
-  border-bottom: #77aaff 3px solid;
+  border-bottom: #0056b3 3px solid; /* Darker blue border */
 }
 
 .navbar {
@@ -46,8 +46,8 @@
 }
 
 .navbar ul li a:hover {
-  color: #77aaff;
-  border-bottom: 2px solid #77aaff; /* Underline effect on hover */
+  color: #e6f2ff; /* Lighter blue on hover */
+  border-bottom: 2px solid #e6f2ff; /* Lighter blue underline */
 }
 
 /* Responsive Navigation */
