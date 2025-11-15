@@ -1,34 +1,84 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-  <title>Subjects</title>
-  <link rel = "icon" href = "t.png" type = "image/x-icon">
-  <link rel="stylesheet" type="text/css" href="../../css/SubjectStyle.css">
 
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="../../css/Style.css">
+  <link rel="stylesheet" href="../../css/LandingPage.css">
+  <link rel="icon" href="../../t.png" type="image/x-icon">
+
+  <title>Subjects</title>
 </head>
 
-<body bgcolor = "#00FA9A">
-<h3><ul>
-  <li class="web"><a class="white" href="../../index.html">Home</a></li>
-  <li class="web"><a class="white" href="Semesters.html">Semesters</a></li>
-  <li class="web"><a class="white" href="Subjects.html">Subjects</a></li>
-  <li class="web"><a class="white" href="Books.html">Books</a></li>
-</ul></h3><br><br>
+<body>
+  <header class="main-header">
+    <nav class="navbar">
+      <div class="wrapper">
+        <a href="../../index.html" class="site-title"><span class="site-title-icon">🎓</span> <span class="site-title-text">Tech Edu<br>Assistant</span></a>
+        <ul>
+          <li><a href="../../index.html">Home</a></li>
+          <li><a href="Semesters.html">Semesters</a></li>
+          <li><a href="Subjects.html">Subjects</a></li>
+          <li><a href="Books.html">Books</a></li>
+          <li><a href="IIT_Syllabus.pdf">Syllabus</a></li>
+        </ul>
+      </div>
+    </nav>
+  </header>
 
-<h1 class="headlines">Subject Wise Learning</h1>
-<div class="navbar">
+  <main>
+    <section id="subject-list" class="card-menu-section">
+      <div class="container">
+        <h2>Subject Wise Learning</h2>
+        <div class="card-grid">
+          <a href="../SubjectsGroup/ComputerFundamentals.html" class="card-item">
+            <div class="card-icon">🖥️</div>
+            <h3>Computer Fundamentals</h3>
+            <p>Basic concepts of computer hardware and software.</p>
+          </a>
+          <a href="../SubjectsGroup/ComputerEngineering.html" class="card-item">
+            <div class="card-icon">⚙️</div>
+            <h3>Computer Engineering</h3>
+            <p>Principles of computer hardware and software design.</p>
+          </a>
+          <a href="../SubjectsGroup/ComputerProgramming.html" class="card-item">
+            <div class="card-icon">💻</div>
+            <h3>Computer Programming</h3>
+            <p>Learn various programming languages and techniques.</p>
+          </a>
+          <a href="../SubjectsGroup/Mathematics&Statistics.html" class="card-item">
+            <div class="card-icon">➕</div>
+            <h3>Mathematics & Statistics</h3>
+            <p>Foundational mathematical and statistical concepts.</p>
+          </a>
+          <a href="../SubjectsGroup/SoftwareEngineering.html" class="card-item">
+            <div class="card-icon">🛠️</div>
+            <h3>Software Engineering</h3>
+            <p>Methodologies for designing, developing, and maintaining software.</p>
+          </a>
+          <a href="../SubjectsGroup/InformationTechnology.html" class="card-item">
+            <div class="card-icon">🌐</div>
+            <h3>Information Technology</h3>
+            <p>Overview of information systems and technology.</p>
+          </a>
+          <a href="../SubjectsGroup/GeneralStudies.html" class="card-item">
+            <div class="card-icon">📚</div>
+            <h3>General Studies</h3>
+            <p>Broad knowledge across various academic disciplines.</p>
+          </a>
+        </div>
+      </div>
+    </section>
+  </main>
 
-<h3><ul class="Semester">
-  <li class="Semester"><a class="white" href="../SubjectsGroup/ComputerFundamentals.html">Computer Fundamentals</a></li>
-  <li class="Semester"><a class="white" href="../SubjectsGroup/ComputerEngineering.html">Computer Engineering</a></li>
-  <li class="Semester"><a class="white" href="../SubjectsGroup/ComputerProgramming.html">Computer Programming</a></li>
-  <li class="Semester"><a class="white" href="../SubjectsGroup/Mathematics&Statistics.html">Mathematics & Statistics</a></li>
-  <li class="Semester"><a class="white" href="../SubjectsGroup/SoftwareEngineering.html">Software Engineering</a></li>
-  <li class="Semester"><a class="white" href="../SubjectsGroup/InformationTechnology.html">Information Technology</a></li>
-  <li class="Semester"><a class="white" href="../SubjectsGroup/GeneralStudies.html">General Studies</a></li>
-</ul></h3><br>
+  <footer class="main-footer">
+    <div class="container">
+      <p>&copy; 2025 Tech Edu Assistant. All rights reserved.</p>
+    </div>
+  </footer>
 
-</div>
+  <script src="../../js/main.js"></script>
 </body>
+
 </html>
