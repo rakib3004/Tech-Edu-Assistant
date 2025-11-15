@@ -1,66 +1,79 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <title>5th Semester</title>
-    <link rel="icon" href="t.png" type="image/x-icon" />
-    <link rel="stylesheet" type="text/css" href="../../css/SubjectStyle.css" />
-  </head>
 
-  <body bgcolor="#00FA9A">
-    <h3>
-      <ul>
-        <li class="web"><a class="white" href="../../index.html">Home</a></li>
-        <li class="web">
-          <a class="white" href="../html/Semesters.html">Semesters</a>
-        </li>
-        <li class="web">
-          <a class="white" href="../html/Subjects.html">Subjects</a>
-        </li>
-        <li class="web">
-          <a class="white" href="../html/Languages.html">Languages</a>
-        </li>
-      </ul>
-    </h3>
-    <br /><br />
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="../../css/Style.css">
+  <link rel="stylesheet" href="../../css/LandingPage.css">
+  <link rel="icon" href="../../t.png" type="image/x-icon">
 
-    <h1 class="headlines">5th Semester</h1>
-    <h3>
-      <div class="navbar">
-        <ul class="Semester">
-          <li class="Semester">
-            <a class="white" href="../Pdf3/DesignPatterns.html"
-              >Design Patterns</a
-            >
-          </li>
-          <li class="Semester">
-            <a class="white" href="../Pdf3/WebTechnology.html"
-              >Web Technology</a
-            >
-          </li>
-          <li class="Semester">
-            <a class="white" href="../Pdf3/DatabaseManagementSystem2.html"
-              >Database Management System II</a
-            >
-          </li>
-          <li class="Semester">
-            <a class="white" href="../Pdf3/BusinessCommunications.html"
-              >Business Communications</a
-            >
-          </li>
-          <li class="Semester">
-            <a class="white" href="../Pdf3/ProfessionalEthics.html"
-              >Professional Ethics for Information Systems</a
-            >
-          </li>
-          <li class="Semester">
-            <a class="white" href="../Pdf3/SoftwareProjectLab2.html"
-              >Software Project Lab II</a
-            >
-          </li>
+  <title>5th Semester</title>
+</head>
+
+<body>
+  <header class="main-header">
+    <nav class="navbar">
+      <div class="wrapper">
+        <a href="../../index.html" class="site-title"><span class="site-title-icon">🎓</span> <span class="site-title-text">Tech Edu<br>Assistant</span></a>
+        <ul>
+          <li><a href="../../index.html">Home</a></li>
+          <li><a href="../html/Semesters.html">Semesters</a></li>
+          <li><a href="../html/Subjects.html">Subjects</a></li>
+          <li><a href="../html/Books.html">Books</a></li>
+          <li><a href="../html/IIT_Syllabus.pdf">Syllabus</a></li>
         </ul>
       </div>
-    </h3>
-    <br />
-  </body>
+    </nav>
+  </header>
+
+  <main>
+    <section id="semester-subjects" class="card-menu-section">
+      <div class="container">
+        <h2>5th Semester Subjects</h2>
+        <div class="card-grid">
+          <a href="../Pdf3/DesignPatterns.html" class="card-item">
+            <div class="card-icon">🎨</div>
+            <h3>Design Patterns</h3>
+            <p>Learn reusable solutions to common software design problems.</p>
+          </a>
+          <a href="../Pdf3/WebTechnology.html" class="card-item">
+            <div class="card-icon">🌐</div>
+            <h3>Web Technology</h3>
+            <p>Explore the technologies behind web development.</p>
+          </a>
+          <a href="../Pdf3/DatabaseManagementSystem2.html" class="card-item">
+            <div class="card-icon">🗄️</div>
+            <h3>Database Management System II</h3>
+            <p>Advanced topics in database management systems.</p>
+          </a>
+          <a href="../Pdf3/BusinessCommunications.html" class="card-item">
+            <div class="card-icon">🗣️</div>
+            <h3>Business Communications</h3>
+            <p>Develop effective communication skills for business.</p>
+          </a>
+          <a href="../Pdf3/ProfessionalEthics.html" class="card-item">
+            <div class="card-icon">⚖️</div>
+            <h3>Professional Ethics for Information Systems</h3>
+            <p>Understand ethical considerations in information systems.</p>
+          </a>
+          <a href="../Pdf3/SoftwareProjectLab2.html" class="card-item">
+            <div class="card-icon">🧪</div>
+            <h3>Software Project Lab II</h3>
+            <p>Advanced hands-on experience in software project development.</p>
+          </a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="main-footer">
+    <div class="container">
+      <p>&copy; 2025 Tech Edu Assistant. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="../../js/main.js"></script>
+</body>
+
 </html>

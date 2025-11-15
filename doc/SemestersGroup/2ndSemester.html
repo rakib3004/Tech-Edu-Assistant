@@ -1,66 +1,79 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <title>2nd Semester</title>
-    <link rel="icon" href="t.png" type="image/x-icon" />
-    <link rel="stylesheet" type="text/css" href="../../css/SubjectStyle.css" />
-  </head>
 
-  <body bgcolor="#00FA9A">
-    <h3>
-      <ul>
-        <li class="web"><a class="white" href="../../index.html">Home</a></li>
-        <li class="web">
-          <a class="white" href="../html/Semesters.html">Semesters</a>
-        </li>
-        <li class="web">
-          <a class="white" href="../html/Subjects.html">Subjects</a>
-        </li>
-        <li class="web">
-          <a class="white" href="../html/Languages.html">Languages</a>
-        </li>
-      </ul>
-    </h3>
-    <br /><br />
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="../../css/Style.css">
+  <link rel="stylesheet" href="../../css/LandingPage.css">
+  <link rel="icon" href="../../t.png" type="image/x-icon">
 
-    <h1 class="headlines">2nd Semester</h1>
-    <h3>
-      <div class="navbar">
-        <ul class="Semester">
-          <li class="Semester">
-            <a class="white" href="../Pdf1/DataStructureAlgorithm.html"
-              >Data Structure & Algorithm</a
-            >
-          </li>
-          <li class="Semester">
-            <a class="white" href="../Pdf1/ObjectOrientedConcepts1.html"
-              >Object Oriented Concepts I</a
-            >
-          </li>
-          <li class="Semester">
-            <a class="white" href="../Pdf1/OrdinaryDifferentialEquations.html"
-              >Ordinary Differential Equations</a
-            >
-          </li>
-          <li class="Semester">
-            <a class="white" href="../Pdf1/Statistics&Probability2.html"
-              >Probability and Statistics for Engineers II</a
-            >
-          </li>
-          <li class="Semester">
-            <a class="white" href="../Pdf2/BangladeshStudies.html"
-              >Bangladesh Studies</a
-            >
-          </li>
-          <li class="Semester">
-            <a class="white" href="../Pdf2/ComputerOrganization.html">
-              Computer Organization</a
-            >
-          </li>
+  <title>2nd Semester</title>
+</head>
+
+<body>
+  <header class="main-header">
+    <nav class="navbar">
+      <div class="wrapper">
+        <a href="../../index.html" class="site-title"><span class="site-title-icon">🎓</span> <span class="site-title-text">Tech Edu<br>Assistant</span></a>
+        <ul>
+          <li><a href="../../index.html">Home</a></li>
+          <li><a href="../html/Semesters.html">Semesters</a></li>
+          <li><a href="../html/Subjects.html">Subjects</a></li>
+          <li><a href="../html/Books.html">Books</a></li>
+          <li><a href="../html/IIT_Syllabus.pdf">Syllabus</a></li>
         </ul>
       </div>
-    </h3>
-    <br />
-  </body>
+    </nav>
+  </header>
+
+  <main>
+    <section id="semester-subjects" class="card-menu-section">
+      <div class="container">
+        <h2>2nd Semester Subjects</h2>
+        <div class="card-grid">
+          <a href="../Pdf1/DataStructureAlgorithm.html" class="card-item">
+            <div class="card-icon">🌳</div>
+            <h3>Data Structure & Algorithm</h3>
+            <p>Learn fundamental data structures and algorithms.</p>
+          </a>
+          <a href="../Pdf1/ObjectOrientedConcepts1.html" class="card-item">
+            <div class="card-icon">🧩</div>
+            <h3>Object Oriented Concepts I</h3>
+            <p>Understand the basics of Object-Oriented Programming.</p>
+          </a>
+          <a href="../Pdf1/OrdinaryDifferentialEquations.html" class="card-item">
+            <div class="card-icon">➗</div>
+            <h3>Ordinary Differential Equations</h3>
+            <p>Study methods for solving ordinary differential equations.</p>
+          </a>
+          <a href="../Pdf1/Statistics&Probability2.html" class="card-item">
+            <div class="card-icon">📈</div>
+            <h3>Probability and Statistics for Engineers II</h3>
+            <p>Advanced topics in probability and statistics for engineers.</p>
+          </a>
+          <a href="../Pdf2/BangladeshStudies.html" class="card-item">
+            <div class="card-icon">🇧🇩</div>
+            <h3>Bangladesh Studies</h3>
+            <p>Explore the history and culture of Bangladesh.</p>
+          </a>
+          <a href="../Pdf2/ComputerOrganization.html" class="card-item">
+            <div class="card-icon">🖥️</div>
+            <h3>Computer Organization</h3>
+            <p>Learn about the internal structure and organization of computers.</p>
+          </a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="main-footer">
+    <div class="container">
+      <p>&copy; 2025 Tech Edu Assistant. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="../../js/main.js"></script>
+</body>
+
 </html>

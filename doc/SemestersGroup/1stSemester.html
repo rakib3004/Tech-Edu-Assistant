@@ -1,64 +1,79 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <title>1st Semester</title>
-    <link rel="icon" href="t.png" type="image/x-icon" />
-    <link rel="stylesheet" type="text/css" href="../../css/SubjectStyle.css" />
-  </head>
 
-  <body bgcolor="#00FA9A">
-    <h3>
-      <ul>
-        <li class="web"><a class="white" href="../../index.html">Home</a></li>
-        <li class="web">
-          <a class="white" href="../html/Semesters.html">Semesters</a>
-        </li>
-        <li class="web">
-          <a class="white" href="../html/Subjects.html">Subjects</a>
-        </li>
-        <li class="web">
-          <a class="white" href="../html/Languages.html">Languages</a>
-        </li>
-      </ul>
-    </h3>
-    <br /><br />
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="../../css/Style.css">
+  <link rel="stylesheet" href="../../css/LandingPage.css">
+  <link rel="icon" href="../../t.png" type="image/x-icon">
 
-    <h1 class="headlines">1st Semester</h1>
-    <h3>
-      <div class="navbar">
-        <ul class="Semester">
-          <li class="Semester">
-            <a class="white" href="../Pdf1/StructuredProgramming.html"
-              >Structured Programming</a
-            >
-          </li>
-          <li class="Semester">
-            <a class="white" href="../Pdf1/DiscreteMathematics.html"
-              >Discrete Mathematics</a
-            >
-          </li>
-          <li class="Semester">
-            <a class="white" href="../Pdf1/Calculus&AnalyticGeometry.html"
-              >Calculus and Analytic Geometry</a
-            >
-          </li>
-          <li class="Semester">
-            <a class="white" href="../Pdf1/Statistics&Probability1.html"
-              >Probability and Statistics for Engineers I</a
-            >
-          </li>
-          <li class="Semester">
-            <a class="white" href="../Pdf1/Sociology.html">Sociology</a>
-          </li>
-          <li class="Semester">
-            <a class="white" href="../Pdf1/IntroductionToSE.html"
-              >Introduction to Software Engineering</a
-            >
-          </li>
+  <title>1st Semester</title>
+</head>
+
+<body>
+  <header class="main-header">
+    <nav class="navbar">
+      <div class="wrapper">
+        <a href="../../index.html" class="site-title"><span class="site-title-icon">🎓</span> <span class="site-title-text">Tech Edu<br>Assistant</span></a>
+        <ul>
+          <li><a href="../../index.html">Home</a></li>
+          <li><a href="../html/Semesters.html">Semesters</a></li>
+          <li><a href="../html/Subjects.html">Subjects</a></li>
+          <li><a href="../html/Books.html">Books</a></li>
+          <li><a href="../html/IIT_Syllabus.pdf">Syllabus</a></li>
         </ul>
       </div>
-    </h3>
-    <br />
-  </body>
+    </nav>
+  </header>
+
+  <main>
+    <section id="semester-subjects" class="card-menu-section">
+      <div class="container">
+        <h2>1st Semester Subjects</h2>
+        <div class="card-grid">
+          <a href="../Pdf1/StructuredProgramming.html" class="card-item">
+            <div class="card-icon">💻</div>
+            <h3>Structured Programming</h3>
+            <p>Learn the fundamentals of structured programming.</p>
+          </a>
+          <a href="../Pdf1/DiscreteMathematics.html" class="card-item">
+            <div class="card-icon">➕</div>
+            <h3>Discrete Mathematics</h3>
+            <p>Explore concepts in discrete mathematics.</p>
+          </a>
+          <a href="../Pdf1/Calculus&AnalyticGeometry.html" class="card-item">
+            <div class="card-icon">📈</div>
+            <h3>Calculus and Analytic Geometry</h3>
+            <p>Study calculus and analytic geometry principles.</p>
+          </a>
+          <a href="../Pdf1/Statistics&Probability1.html" class="card-item">
+            <div class="card-icon">📊</div>
+            <h3>Probability and Statistics for Engineers I</h3>
+            <p>Introduction to probability and statistics for engineers.</p>
+          </a>
+          <a href="../Pdf1/Sociology.html" class="card-item">
+            <div class="card-icon">👥</div>
+            <h3>Sociology</h3>
+            <p>Understand societal structures and human behavior.</p>
+          </a>
+          <a href="../Pdf1/IntroductionToSE.html" class="card-item">
+            <div class="card-icon">⚙️</div>
+            <h3>Introduction to Software Engineering</h3>
+            <p>An introduction to the principles of software engineering.</p>
+          </a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="main-footer">
+    <div class="container">
+      <p>&copy; 2025 Tech Edu Assistant. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="../../js/main.js"></script>
+</body>
+
 </html>
